@@ -4,10 +4,9 @@ import CollectionRepos from './components/CollectionRepos'
 const RepositoryApp = () => {
 
     return (
-        <div>
-            <CollectionRepos />
-            
-        </div>
+        <>
+            <CollectionRepos />  
+        </>
     )
 }
 
