@@ -3,11 +3,13 @@ import '../index.js'
 
 const RepositoryDetail = ({state, setIsDetail}) => {
 
+    console.log(state);
+
     return (
         <div className="cardContainer">
             <button 
             className="return"
-            onClick={() => setIsDetail(false)}>Regresar</button>
+            onClick={() => setIsDetail(false)}> Regresar </button>
             
             <div className="cardDetail">
             <img src={state.avatar} alt="Laboratoria" className="cardAvatar"/>
