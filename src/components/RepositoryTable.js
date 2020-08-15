@@ -2,8 +2,10 @@ import React from 'react'
 
 const RepositoryTable = ({repository, setState,setIsDetail}) => {
     return (
-        <div>
-            <table className="table">
+        <div className="containerTable">
+            <h1>Repositorios Laboratoria</h1>
+            
+            <table className="table col-10">
                 <thead>
                 <tr>
                     <th>Avatar</th>
@@ -26,7 +28,7 @@ const RepositoryTable = ({repository, setState,setIsDetail}) => {
                     <td>{repo.fullname}</td>
                     <td>{repo.description}</td>
                     <td><button 
-                    className="btn btn-primary"
+                    className="detail"
                     onClick={() => {
                         setState(repo)
                         setIsDetail(true)
