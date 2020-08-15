@@ -109,11 +109,10 @@ body {
   border-radius: 50%;
 }
 
-.cardDetail a{
-  padding: 10px;
-  margin: 10px;
+.cardDetail button{
+  padding: 5px;
   width: 100px;
-  height: 45px;
+  height: 38px;
   text-decoration: none;
   color: #fff;
   border: 1px solid #DB009D;
@@ -124,7 +123,11 @@ body {
   text-align: center;
 }
 
-.cardDetail a:hover{
+.cardDetail button:hover{
   background:none;
   color: #DB009D;
+}
+
+.cardDetail button:focus{
+  outline: 5px auto #DB009D !important;
 }
