@@ -1,11 +1,13 @@
 import React from 'react'
+import '../styles/styleTable.css'
 
 const RepositoryTable = ({repository, setState,setIsDetail}) => {
     return (
         <div className="containerTable">
+            
             <h1>Repositorios Laboratoria</h1>
             
-            <table className="table col-10">
+            <table className="table">
                 <thead>
                 <tr>
                     <th>Avatar</th>

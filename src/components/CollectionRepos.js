@@ -44,7 +44,6 @@ const CollectionRepos = () => {
                 setState={setState}
                 setIsDetail={setIsDetail}
             />
-                //document.execCommand('copy');
             }
         {
             isDetail  && 
